@@ -1,0 +1,253 @@
+body 
+{ /* base values for whole page */
+	
+font-size: 16pt;
+	
+font-family: "Oswald", sans-serif;
+	
+color: #0b3142;
+	
+background-color: #eaebed;
+	
+margin-right: 50px;
+	
+margin-left: 0px;
+	
+padding: 2px;
+	
+padding-top: 110px;
+	
+height: 100%;
+}
+
+
+
+h1 
+{ /* header 1 values */
+	
+font-size: 32pt;
+	
+text-align: center;
+	
+color: #7293a0;
+}
+
+
+
+h2 { /* header 2 values */
+	
+font-size: 24pt; 
+	
+color: #0b3142;
+	
+font-weight: bold;
+	
+margin-left: 50px;
+}
+
+
+
+h3 { /* header 3 values */
+	
+font-size: 18pt; 
+	
+color: #0b3142;
+	
+font-weight: bold;
+	
+text-decoration: underline;
+	
+margin-left: 50px;
+}
+
+
+
+p { /* paragraph values */
+	
+color: #0b3142;
+	margin-left: 50px;
+}
+
+
+
+ul { /* navbar values */
+	
+position: fixed;
+	
+width: 200px;
+	
+list-style-type: none;
+	
+margin-top: -126px;
+	
+margin-left: 0px;
+    
+padding: 8px 16px;
+}
+
+
+
+li { /* navbar button values */
+	
+font-size: 12pt;
+	
+display: block;
+	
+background-color: #0b3142;
+	
+float: none;
+    
+width: 200px;
+    
+padding-left: 0px;
+    
+margin-left: 0px;
+    
+padding: 8px 16px;
+}
+
+
+
+img { /* image values */
+	
+display: block;
+    
+margin: 0 auto;
+	
+padding-left: 12px;
+	
+width: 256px;
+	
+height: 256px;
+}
+
+
+
+a {color: #9c92a3;} /* static link value */
+
+
+
+a:hover {color: #d6d3f0;} /* hover link value */
+
+
+
+a:active {color: #c6b9cd;} /* active link value */
+
+
+
+a:visited {color: #9c92a3;} /* visited link value */
+
+
+
+li a { /* navbar link values */
+	
+color: #9c92a3;
+    
+text-decoration: none;
+}
+
+
+
+li a:hover { /* navbar link hover values */
+	
+color: #d6d3f0;
+	
+background-color: #efc7c2;
+	
+padding: 8px 16px; 
+}
+
+
+
+li a:active { color: #c6b9cd;} /* navbar link active value */
+
+
+
+li a:visited { color: #9c92a3;} /* navbar link visited value */
+
+
+
+.active { /* navbar current page values */
+	
+background-color: #c6b9cd;
+	
+padding: 8px 16px;
+}
+
+
+.grid_container { /* grid values for formatting */
+	
+margin-left: 50px;
+	
+display: grid;
+	
+grid-template-columns: 1fr;
+	
+grid-gap: 10px;
+	
+grid-auto-rows: minmax(100px,auto);
+}
+
+
+
+.grid_container > div { /* grid values for formatting */
+	
+padding: 10px; 
+	font-size: 16pt;
+}
+
+
+
+.grid_container > div:nth-child(odd) { /* grid values for formatting every odd grid number */
+	
+font-size: 12pt;
+	
+background: #7293a0;
+}
+
+
+
+@media only screen and (min-width: 720px) { /* Does these things when page is viewed on desktop */
+	
+/* tablets and desktop */
+	
+
+.desktopli {
+   	 	
+color: #45b69c;
+		
+float: left;
+		
+width: 18.7%;
+    	
+text-align: center;
+    	
+padding: 8px 16px;
+	
+}
+	
+
+.desktopul {
+    	
+width: 110%;
+    	
+position: fixed;
+    	
+margin-top: 0px;
+		
+margin-left: 0px;
+		
+margin-right: 0px;
+		
+padding-left: 0px;
+		
+top: 0px;
+	}
+	
+body {padding-top: 30px;}
+	
+
+.grid_container {
+		
+grid-template-columns: 1fr 2fr;
+	}}

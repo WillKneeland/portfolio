@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=RunGame
+comment0.text=\r\n\ This\ class\ runs\ a\ world\ that\ contains\ a\ bug\ and\ a\ rock,\ added\ at\ random\r\n\ locations.\ Click\ on\ empty\ locations\ to\ add\ additional\ actors.\ Click\ on\r\n\ populated\ locations\ to\ invoke\ methods\ on\ their\ occupants.\ <br\ />\r\n\ To\ build\ your\ own\ worlds,\ define\ your\ own\ actors\ and\ a\ runner\ class.\ See\ the\r\n\ BoxBugRunner\ (in\ the\ boxBug\ folder)\ for\ an\ example.\ <br\ />\r\n\ This\ class\ is\ not\ tested\ on\ the\ AP\ CS\ A\ and\ AB\ exams.\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\r\n\ The\ main\ method\ that\ runs\ the\ game.\r\n
+comment2.params=event
+comment2.target=boolean\ dispatchKeyEvent(java.awt.event.KeyEvent)
+comment3.params=
+comment3.target=void\ addPlayers()
+comment4.params=
+comment4.target=void\ instructions()
+comment5.params=
+comment5.target=void\ testGameState()
+comment5.text=\r\n\ Tests\ the\ state\ of\ the\ game\ (still\ going,\ over,\ etc.)\r\n
+comment6.params=gr\ loc
+comment6.target=info.gridworld.actor.Actor\ remove(info.gridworld.grid.Grid,\ info.gridworld.grid.Location)
+comment6.text=\r\n\ Removes\ an\ actor\ from\ this\ world.\r\n\ @param\ loc\ the\ location\ from\ which\ to\ remove\ an\ actor\r\n\ @return\ the\ removed\ actor,\ or\ null\ if\ there\ was\ no\ actor\ at\ the\ given\r\n\ location.\r\n
+numComments=7
